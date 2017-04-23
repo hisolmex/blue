@@ -147,7 +147,7 @@ header>nav>a>img {
 }
 .services h2 {
 	text-transform: uppercase;
-	font-size: 40px;
+	font-size: 30px;
 	text-align: left;
 	
 }
@@ -245,7 +245,6 @@ iframe {
 	width: 140px;
     height: 45px;
     background: 0 0;
-    
 	display: inline-block;
 	padding: 14px 28px;
     font-size: 14px;
@@ -256,8 +255,7 @@ iframe {
 	transition: all .3s ease-in-out;
 }
 .btn:hover {
-    background-color: white; /* Green */
-    
+	background: white;
 }
 .fa:hover {
 	color: #222c35;
@@ -303,6 +301,27 @@ ul.social-icons {
 	position: relative;
     left: -19px;
 }
+.btn2 {
+    margin-top: 15px;
+    border: solid 2px #4bcaff;
+    color: #fff;
+	width: 372px;
+    background: #4bcaff;
+    transition: all .3s ease-in-out;
+	display: inline-block;
+	padding: 18px 27px;
+    font-size: 14px;
+	text-transform: uppercase;
+    line-height: 1.33;
+	text-decoration: none;
+    border-radius: 0;
+	-webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+.btn2:hover {
+    background-color: white; /* Green */
+    color: #4bcaff;;
+}
 .fa {
 	width: 63px;
     border: 1px solid white;
@@ -338,6 +357,7 @@ ul.social-icons {
 	text-align: left;
 	font-size: 30px;
 	float: left;
+	text-transform: uppercase;
 }
 .blue-box {
 	display: inline-block;
@@ -364,6 +384,7 @@ ul.social-icons {
     text-align: left;
     font-size: 30px;
     float: left;
+	text-transform: uppercase;
 }
 small {
     float: left;
@@ -397,6 +418,13 @@ footer {
 	color: #515f67;
 	font-size: 12px;
 	background: #353f47;
+}
+.contact h2 {
+    color: white;
+    text-align: left;
+    font-size: 30px;
+	text-transform: uppercase;
+	
 }
 @media (max-width: 1260px) { 
 	.container {
@@ -490,7 +518,11 @@ footer {
 		text-align: center;
 	}
 	.photo {
-		min-height: 590px;
+		min-height: 633px;
+	}
+	footer .col-6 {
+		display: block;
+		width: 50%;
 	}
 }
 @media (max-width: 540px) {
@@ -498,7 +530,19 @@ footer {
 		width: 100%;
 		display: block;
 	}
-
+	.hero h1 {
+		font-size: 31px;
+	}
+	.hero {
+		min-height: 500px;
+	}
+	
+	footer ul li a {
+		line-height: 26px;
+	}
+	footer ul {
+		text-align: right;
+	}
 	.photo ul li {
 		padding: 0 2px;
 		font-size: 24px;
@@ -513,6 +557,9 @@ footer {
 	.portfolio .col-3 {
 		width: 100%;
 		display: block;
+	}
+	.footer-p {
+		text-align: left;
 	}
 }
 @media (max-width: 420px) {
